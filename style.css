@@ -12,7 +12,8 @@ body {
     align-items: center;
     background-image: url(./img/background-image.jpg);
     background-repeat: no-repeat;
-    background-attachment: fixed;    
+    background-attachment: fixed; 
+    overflow: hidden;   
 }
 
 .main {
@@ -29,7 +30,7 @@ body {
 }
 
 .screen-container {
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: 10px;
     margin-bottom: 1em;
     width: 320px;
@@ -42,17 +43,24 @@ body {
 .screen {
     width: 280px;
     height: 70px;
+    font-size: 2em;
 }
 
 button {
     width: 5.5em;
     height: 5.5em;
     border: 2px solid black;
-    border-radius: 50%;
+    border-radius: 20%;
     margin: 2px;
+    background-color: #E8F0F3;
 }
 
 .zero{
-    width: 11em;
+    width: 11.5em;
     border-radius: 50px;
+}
+
+.math{
+    background-color: #FF9205;
+    color: white;
 }
